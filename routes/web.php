@@ -18,3 +18,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [CaretakerController::class,'index']);
 
 Route::get('/janani/{user}', [CaretakerController::class, 'janani']);
+// Route::get('/janani/{user}', [CaretakerController::class, 'janani']);
